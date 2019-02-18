@@ -20,5 +20,9 @@ Route::get('/part1', function () {
 });
 
 Route::get('/part2', function () {
-    return view('learning_laravel_lessons_learned.part1');
+    return view('learning_laravel_lessons_learned.part2');
+});
+
+Route::get('/part3', function() {
+	return view('learning_laravel_lessons_learned.part3');
 });
