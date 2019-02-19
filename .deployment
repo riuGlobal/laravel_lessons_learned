@@ -1,2 +1,3 @@
 [config]
-project=riu_test
+project=public
+command=riu_deploy.sh
