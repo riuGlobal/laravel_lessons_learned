@@ -1,4 +1,4 @@
-<<?php 
+<?php 
 
 header("/public/index.php");
 die();
