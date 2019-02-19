@@ -1,3 +1,2 @@
 [config]
-project=public
 command=sh riu_deploy.sh
