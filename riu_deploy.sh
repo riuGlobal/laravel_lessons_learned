@@ -1,5 +1,4 @@
 #!/bin/sh
-httpd  -v;
 echo "ricardo";
 pwd;
 cp .env.example .env;
