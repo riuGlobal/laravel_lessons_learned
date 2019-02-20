@@ -6,4 +6,4 @@ composer install;
 #composer  update;
 echo "about to get key";
 php artisan key:generate;
-cp -r $DEPLOYMENT_SOURCE $DEPLOYMENT_TARGET;
+cp -r $DEPLOYMENT_SOURCE/* $DEPLOYMENT_TARGET;
