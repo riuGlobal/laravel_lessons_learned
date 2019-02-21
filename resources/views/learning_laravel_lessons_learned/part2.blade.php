@@ -59,8 +59,33 @@
 
         <h2> using azure for deploying </h2>
 
-        check remaining credits here:  https://www.microsoftazuresponsorships.com/Balance
+        <p> check remaining credits here:  https://www.microsoftazuresponsorships.com/Balance
+            
+        <br>* how to set up a web service app with linux
+        <br>* how to set up git in order to be able to update with a simple push. 
+        <br>* how to manually set up  the page. 
+        <br>--->copy .env.example to .env
+        <br>---> Install composer on /repositories
+        <br>---> use php artisan key:generate
+        <br>---> copy all files (use -r) to site/wwwroot
+        <br>* how to write .deployment file and its pourpose
+        <br>* the shell script called in order to automate process for deployment
+        <br>* (NOT IDEAL) use php's header  function to redirect.
         
+        
+        
+        
+        </p>
+        
+        <h3> IMPORTANT: stuff that didnt work </h3>
+            <p>* Using PROJECT for deployment either on .deployment file or on Apllication setting wont work
+                <br>--->WHY: it will only copy the target folder to /site/wwwroot meaning it will ignore the rest. This would be usefull in a scenario where multiple projects are stored on the same repository and for deployment only  a particular folder must be considered ( rest must be ignored).
+                <br>* Many solutions refer to the use of "Virtual paths" this is not posible when using the windows distro
+                <br>* using .htaccess is not working either. (FURTHER TESTING needed)
+                
+            
+            
+            </p>
             
         <h2> testing basic editing </h2>
         
