@@ -3,14 +3,14 @@
 
     <head>
 
-        <title>Part1: TODO: set title   CAMBIOOOOO</title>
+        <title>Part1: TODO: set title </title>
 
 
     </head>
 
     <body> 
 
-        <h1> Part 1: TODO title  </h1> 
+        <h1> Part 1: TODO title test  </h1> 
 
         <h2>  Preparing </h2>
         <p>Have  linux distribution ready: Debian, Ubuntu</p>
